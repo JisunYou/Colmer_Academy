@@ -7,11 +7,12 @@ div {
 	border: 1px solid pink;
 }
 
-.header {
+.header, .banner , .information {
 	max-width: 850px;
 	margin: 0 auto;
 }
 
+/*header*/
 .header {
 	display: flex;
 	height: 4rem;
@@ -38,3 +39,43 @@ div {
 .header li {
 	margin-left: 1rem;
 }
+
+/*banner*/
+.banner {
+	display: flex;
+	background-color: #dcdcdc;
+}
+.banner .image {
+	width: 60%;
+	padding: 2rem 1.5rem;
+}
+.banner .image img {
+	width: 100%;
+}
+.banner .copy {
+	width: 40%;
+	margin-top: auto;
+	margin-bottom: auto;/*
+	margin-right: 1rem;*/
+}
+.banner .copy h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #403E3E;
+	line-height: 2.5rem;
+}
+.banner .copy p {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	line-height: 1.5rem;
+}
+.banner .copy .button {
+	display: flex;
+	background-color: #403E3E;
+	width: 80%;
+}
+.banner .copy .button p {
+	margin: 8px auto;
+	color: white;
+}
+
