@@ -7,7 +7,7 @@ html {
 	border: 1px solid pink;
 }*/
 
-.header, .banner , .information, .courses {
+.header, .banner , .information, .courses, .thesis {
 	max-width: 850px;
 	margin: 0 auto;
 }
@@ -82,10 +82,10 @@ html {
 .information {
 	display: flex;
 	background-color: whitesmoke;
+	padding: 2rem 1.5rem;
 }
 .information .main {
 	width: 60%;
-	padding: 2rem 1.5rem;
 }
 .information .main img {
 	width: 100%;
@@ -106,15 +106,17 @@ html {
 
 .information .lists {
 	width: 40%;
-	padding-top: 1rem;
 }
 .information .lists .list {
 	display: flex;
 	align-items: center;
+	padding: 0.5rem 0 0.5rem 1rem;
+}
+.information .lists .list:nth-child(1) {
+	padding-top: 0;
 }
 .information .lists .list .image {
 	width: 35%;
-	margin: 1rem;
 }
 .information .lists .list .image img {
 	width: 100%;
@@ -122,6 +124,7 @@ html {
 }
 .information .lists .list .info {
 	width: 65%;
+	padding-left: 1rem;
 }
 .information .lists .list .info h3 {
 	font-size: 1rem;
@@ -178,4 +181,68 @@ html {
 	margin: 0.5rem 1rem 1rem 1rem;
 	font-size: 0.7rem;
 	color: dimgrey;
+}
+
+/*thesis*/
+.thesis {
+	padding: 2rem 1.5rem;
+}
+.thesis h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	text-align: center;
+	width: 100%;
+}
+.thesis .grid {
+	display: flex;
+}
+.thesis .main {
+	width: 60%;
+}
+.thesis .main video {
+	width: 100%;
+	height: auto;
+}
+.thesis .main h3 {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+.thesis .main p {
+	font-size: 0.7rem;
+	color: dimgrey;
+}
+.thesis .lists {
+	width: 40%;
+
+}
+.thesis .lists .list {
+	display: flex;
+	padding: 0.5rem 0 0.5rem 1rem;
+	align-items: center;
+}
+.thesis .lists .list:nth-child(1) {
+	padding-top: 0;
+}
+.thesis .lists .list .image {
+	width: 35%;
+	height: auto;
+}
+.thesis .lists .list .image img {
+	width: 100%;
+}
+.thesis .lists .list .info {
+	width: 65%;
+	padding-left: 1rem;
+} 
+.thesis .lists .list .info h3 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.thesis .lists .list .info p {
+	font-size: 0.7rem;
+	color: dimgrey;
+	margin-top: 0.5rem;
 }
