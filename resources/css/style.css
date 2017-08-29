@@ -3,11 +3,11 @@ html {
 	font-family: 'Work Sans', sans-serif;
 }
 
-div {
+/*div {
 	border: 1px solid pink;
-}
+}*/
 
-.header, .banner , .information {
+.header, .banner , .information, .courses {
 	max-width: 850px;
 	margin: 0 auto;
 }
@@ -43,7 +43,7 @@ div {
 /*banner*/
 .banner {
 	display: flex;
-	background-color: #dcdcdc;
+	background-color: #d3d3d3;
 }
 .banner .image {
 	width: 60%;
@@ -134,4 +134,48 @@ div {
 }
 .information .lists .list .info .read {
 	color: #1E90FF;
+}
+
+/*courses*/
+.courses {
+	background-color: #dcdcdc;
+	padding: 2rem 4.5rem;
+}
+.courses h2 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.courses .grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.courses .grid .course {
+	width: 32%;
+	background-color: white;
+}
+.courses .grid .course:nth-child(4) {
+	margin-top: 1rem;
+}
+.courses .grid .course:nth-child(5) {
+	margin-top: 1rem;
+}
+.courses .grid .course:nth-child(6) {
+	margin-top: 1rem;
+}
+.courses .grid .course img {
+	width: 100%;
+}
+.courses .grid .course h3 {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+.courses .grid .course p {
+	margin: 0.5rem 1rem 1rem 1rem;
+	font-size: 0.7rem;
+	color: dimgrey;
 }
