@@ -7,7 +7,7 @@ html {
 	border: 1px solid pink;
 }*/
 
-.header, .banner , .information, .courses, .thesis {
+.header, .banner , .information, .courses, .thesis, .footer {
 	max-width: 850px;
 	margin: 0 auto;
 }
@@ -245,4 +245,23 @@ html {
 	font-size: 0.7rem;
 	color: dimgrey;
 	margin-top: 0.5rem;
+}
+
+/*footer*/
+.footer {
+	padding: 1rem 1.5rem;
+	border-top: 1px solid #d3d3d3;
+	display: flex;
+	font-size: 0.7rem;
+	color: dimgrey;
+}
+.footer .copyright {
+	flex-grow: 1;
+}
+.footer .nav ul {
+	list-style: none;
+	display: flex;
+}
+.footer .nav ul li {
+	margin-left: 0.5rem;
 }
