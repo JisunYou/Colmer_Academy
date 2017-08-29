@@ -55,8 +55,7 @@ div {
 .banner .copy {
 	width: 40%;
 	margin-top: auto;
-	margin-bottom: auto;/*
-	margin-right: 1rem;*/
+	margin-bottom: auto;
 }
 .banner .copy h1 {
 	font-size: 2rem;
@@ -79,3 +78,60 @@ div {
 	color: white;
 }
 
+/*information*/
+.information {
+	display: flex;
+	background-color: whitesmoke;
+}
+.information .main {
+	width: 60%;
+	padding: 2rem 1.5rem;
+}
+.information .main img {
+	width: 100%;
+}
+.information .main h2 {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.information .main p {
+	font-size: 0.7rem;
+}
+.information .main .name {
+	font-weight: 600;
+	margin-top: 2rem;
+}
+
+.information .lists {
+	width: 40%;
+	padding-top: 1rem;
+}
+.information .lists .list {
+	display: flex;
+	align-items: center;
+}
+.information .lists .list .image {
+	width: 35%;
+	margin: 1rem;
+}
+.information .lists .list .image img {
+	width: 100%;
+	height: auto;
+}
+.information .lists .list .info {
+	width: 65%;
+}
+.information .lists .list .info h3 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.information .lists .list .info p {
+	font-size: 0.7rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.information .lists .list .info .read {
+	color: #1E90FF;
+}
