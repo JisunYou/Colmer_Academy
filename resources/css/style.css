@@ -20,6 +20,12 @@ html {
 	align-items: center;
 	font-family: 'Oxygen', sans-serif;
 }
+.header-mobile {
+	display: flex;
+	height: 4rem;
+	padding: 1rem;
+	justify-content: space-between;
+}
 .header .logo {
 	display: flex;
 	flex-grow: 1;
@@ -159,12 +165,8 @@ html {
 	width: 32%;
 	background-color: white;
 }
-.courses .grid .course:nth-child(4) {
-	margin-top: 1rem;
-}
-.courses .grid .course:nth-child(5) {
-	margin-top: 1rem;
-}
+.courses .grid .course:nth-child(4),
+.courses .grid .course:nth-child(5),
 .courses .grid .course:nth-child(6) {
 	margin-top: 1rem;
 }
@@ -186,6 +188,7 @@ html {
 /*thesis*/
 .thesis {
 	padding: 2rem 1.5rem;
+	background-color: whitesmoke;
 }
 .thesis h2 {
 	font-size: 1.5rem;
@@ -249,6 +252,7 @@ html {
 
 /*footer*/
 .footer {
+	background-color: whitesmoke;
 	padding: 1rem 1.5rem;
 	border-top: 1px solid #d3d3d3;
 	display: flex;
