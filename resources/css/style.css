@@ -8,8 +8,44 @@ html {
 }*/
 
 .header, .banner , .information, .courses, .thesis, .footer {
-	max-width: 850px;
+	max-width: 1024px;
 	margin: 0 auto;
+}
+.banner, .information, .courses, .thesis {
+	padding: 2rem 1.5rem;
+}
+.main {
+	width: 60%;
+}
+.main p {
+	font-size: 0.7rem;
+}
+/*list*/
+.lists {
+	width: 40%;
+}
+.lists .list {
+	display: flex;
+	padding: 0.5rem 0 0.5rem 1rem;
+	align-items: center;
+}
+.lists .list .info h3 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.lists .list .info p {
+	font-size: 0.7rem;
+	margin-top: 0.5rem;
+}
+.lists .list .image {
+	width: 35%;
+}
+.lists .list .image img {
+	width: 100%;
+}
+.lists .list .info {
+	width: 65%;
+	padding-left: 1rem;
 }
 
 /*header*/
@@ -53,7 +89,6 @@ html {
 }
 .banner .image {
 	width: 60%;
-	padding: 2rem 1.5rem;
 }
 .banner .image img {
 	width: 100%;
@@ -62,6 +97,7 @@ html {
 	width: 40%;
 	margin-top: auto;
 	margin-bottom: auto;
+	padding-left: 1rem;
 }
 .banner .copy h1 {
 	font-size: 2rem;
@@ -88,10 +124,6 @@ html {
 .information {
 	display: flex;
 	background-color: whitesmoke;
-	padding: 2rem 1.5rem;
-}
-.information .main {
-	width: 60%;
 }
 .information .main img {
 	width: 100%;
@@ -102,43 +134,14 @@ html {
 	font-size: 1.5rem;
 	font-weight: 700;
 }
-.information .main p {
-	font-size: 0.7rem;
-}
 .information .main .name {
 	font-weight: 600;
 	margin-top: 2rem;
 }
-
-.information .lists {
-	width: 40%;
-}
-.information .lists .list {
-	display: flex;
-	align-items: center;
-	padding: 0.5rem 0 0.5rem 1rem;
-}
 .information .lists .list:nth-child(1) {
 	padding-top: 0;
 }
-.information .lists .list .image {
-	width: 35%;
-}
-.information .lists .list .image img {
-	width: 100%;
-	height: auto;
-}
-.information .lists .list .info {
-	width: 65%;
-	padding-left: 1rem;
-}
-.information .lists .list .info h3 {
-	font-size: 1rem;
-	font-weight: 600;
-}
 .information .lists .list .info p {
-	font-size: 0.7rem;
-	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 .information .lists .list .info .read {
@@ -187,7 +190,6 @@ html {
 
 /*thesis*/
 .thesis {
-	padding: 2rem 1.5rem;
 	background-color: whitesmoke;
 }
 .thesis h2 {
@@ -200,9 +202,6 @@ html {
 .thesis .grid {
 	display: flex;
 }
-.thesis .main {
-	width: 60%;
-}
 .thesis .main video {
 	width: 100%;
 	height: auto;
@@ -214,40 +213,13 @@ html {
 	margin-bottom: 0.5rem;
 }
 .thesis .main p {
-	font-size: 0.7rem;
 	color: dimgrey;
-}
-.thesis .lists {
-	width: 40%;
-
-}
-.thesis .lists .list {
-	display: flex;
-	padding: 0.5rem 0 0.5rem 1rem;
-	align-items: center;
 }
 .thesis .lists .list:nth-child(1) {
 	padding-top: 0;
 }
-.thesis .lists .list .image {
-	width: 35%;
-	height: auto;
-}
-.thesis .lists .list .image img {
-	width: 100%;
-}
-.thesis .lists .list .info {
-	width: 65%;
-	padding-left: 1rem;
-} 
-.thesis .lists .list .info h3 {
-	font-size: 1rem;
-	font-weight: 600;
-}
 .thesis .lists .list .info p {
-	font-size: 0.7rem;
 	color: dimgrey;
-	margin-top: 0.5rem;
 }
 
 /*footer*/
